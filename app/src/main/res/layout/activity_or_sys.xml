@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gui.orsys.Activity.OrSys"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Seja Bem Vindo!"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:onClick="carregarOpcaoMenu"
+        android:id="@+id/cadastrarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Cadastrar um Produto"
+        android:textSize="15sp" />
+
+    <Button
+        android:onClick="carregarOpcaoMenu"
+        android:id="@+id/listarProdutos"
+        android:text="Listar Produtos Cadastrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>

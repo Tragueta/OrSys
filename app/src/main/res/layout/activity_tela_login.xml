@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gui.orsys.Activity.TelaLogin">
+
+    <EditText
+        android:drawableLeft="@mipmap/icone_usuario"
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/efetuarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Efetuar Login"
+        android:textSize="16dp"
+        android:layout_margin="15dp"/>
+</LinearLayout>

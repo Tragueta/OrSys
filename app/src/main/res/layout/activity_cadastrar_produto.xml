@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gui.orsys.Activity.CadastrarProdutoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Seja Bem Vindo!"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerFabricante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/fabricantes" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cor"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editLargura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Largura"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editComprimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comprimento"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editValorPeca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Peça"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:onClick="cadastrarProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cadastrar"/>
+</LinearLayout>

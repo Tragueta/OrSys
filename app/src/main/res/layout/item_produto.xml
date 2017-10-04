@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textFabricante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textLargura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textComprimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textValorPeca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textValorMetragem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+</LinearLayout>
